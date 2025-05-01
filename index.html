@@ -1,0 +1,320 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Jasa Joki - Solusi Cepat &amp; Kekinian
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Poppins", sans-serif;
+      background-color: #000;
+      color: #fff;
+      overscroll-behavior-y: contain;
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #111;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #555;
+      border-radius: 10px;
+    }
+  </style>
+ </head>
+ <body class="flex flex-col min-h-screen">
+  <header class="sticky top-0 z-50 bg-black bg-opacity-95 backdrop-blur-md border-b border-gray-700">
+   <nav class="container mx-auto flex items-center justify-between py-5 px-6 md:px-0">
+    <a aria-label="Beranda Jasa Joki" class="text-2xl font-extrabold tracking-widest text-white hover:text-pink-500 transition flex items-center gap-2" href="#">
+     <i class="fas fa-bolt fa-lg animate-pulse text-pink-500">
+     </i>
+     JOKI TERBALIK
+    </a>
+    <ul class="hidden md:flex space-x-10 font-bold text-pink-400 uppercase tracking-widest text-sm" id="nav-links">
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="index.html">
+       Layanan
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="tentang.html">
+       Tentang
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="kontak.html">
+       Kontak
+      </a>
+     </li>
+    </ul>
+    <button aria-label="Toggle menu" class="md:hidden text-pink-400 hover:text-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </nav>
+   <div class="hidden md:hidden bg-black bg-opacity-95 border-t border-pink-600" id="mobile-menu">
+    <ul class="flex flex-col space-y-5 p-6 uppercase font-extrabold tracking-widest text-pink-400 text-lg">
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="index.html">
+       Layanan
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="tentang.html">
+       Tentang
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="kontak.html">
+       Kontak
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <main class="flex-grow container mx-auto px-6 py-16 max-w-lg md:max-w-6xl">
+   <!-- Hero Section -->
+   <section class="text-center mb-20 px-4 bg-gradient-to-br from-black via-gray-700 to-black rounded-3xl shadow-lg md:flex md:items-center md:justify-between md:px-16 md:py-20">
+    <div class="md:w-1/2">
+     <h1 class="text-3xl font-extrabold tracking-tight mb-3 leading-tight text-white drop-shadow-lg md:text-5xl sm:text-sm">
+      JOKI TERBALIK
+      <span class="text-gray-300">
+       Tugas &amp; Desain
+      </span>
+     </h1>
+     <p class="text-gray-400 font-semibold drop-shadow-md md:text-lg sm:text-xs sm:leading-snug mb-6">
+      Makalah, Skripsi, Jurnal, Website, Coding, dan lainnya. Cepat, keren,
+      dan anti ribet!
+     </p>
+     <a aria-label="Hubungi Kami Sekarang" class="inline-block px-10 py-3 bg-gray-300 text-black font-bold rounded-full shadow-lg hover:bg-gray-400 transition duration-300 md:text-lg sm:text-sm" href="https://wa.link/1rpv0q" target="_blank" rel="noopener noreferrer" role="button">
+      Hubungi Kami
+     </a>
+    </div>
+    <div class="hidden md:block md:w-1/2">
+     <img alt="Ilustrasi karakter lelaki muda santai dengan gaya modern sedang duduk sambil bekerja dengan laptop di meja kerja dengan latar belakang hitam putih" class="mx-auto rounded-3xl shadow-lg" height="320" loading="lazy" src="5.jpg" width="600"/>
+    </div>
+   </section>
+   <!-- Services Section -->
+   <section class="mb-20" id="services">
+    <h2 class="text-3xl font-extrabold mb-10 text-center text-gray-300 tracking-widest sm:text-sm">
+     Layanan Kekinian
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+     <article aria-label="Joki Tugas Makalah" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi dokumen makalah dengan pena dan kertas di atas meja kerja hitam putih" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="6.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Joki Makalah
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Riset &amp; tulis makalah cepat dan rapi.
+      </p>
+     </article>
+     <article aria-label="Joki Skripsi" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi buku skripsi terbuka dengan kacamata dan laptop hitam putih" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="7.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Joki Skripsi
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Pendampingan skripsi sampai selesai.
+      </p>
+     </article>
+     <article aria-label="Joki Jurnal" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi jurnal ilmiah dengan grafik dan diagram hitam putih" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="8.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Joki Jurnal
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Penulisan &amp; editing jurnal ilmiah.
+      </p>
+     </article>
+     <article aria-label="Desain Website" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi layar komputer dengan desain website hitam putih minimalis" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="9.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Desain Web
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Website keren &amp; responsif.
+      </p>
+     </article>
+     <article aria-label="Jasa Ketik" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi tangan mengetik di keyboard laptop hitam putih" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="10.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Jasa Ketik
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Ketik cepat &amp; rapi.
+      </p>
+     </article>
+     <article aria-label="Jasa Desain" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi alat desain grafis seperti pensil, kuas, dan komputer hitam putih" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="https://storage.googleapis.com/a1aa/image/886d7723-efa7-4a96-9777-b197e6d995f5.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Jasa Desain
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Branding &amp; poster kece.
+      </p>
+     </article>
+     <article aria-label="Jasa Proposal" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi dokumen proposal dengan grafik dan tanda tangan hitam putih" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="11.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Jasa Proposal
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Proposal lengkap &amp; menarik.
+      </p>
+     </article>
+     <article aria-label="Coding Diagnosa" class="bg-gradient-to-tr from-black via-gray-700 to-black rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer" role="button" tabindex="0">
+      <img alt="Ilustrasi kode program dan diagram diagnosa komputer hitam putih" class="w-24 h-24 mb-4 filter grayscale rounded-lg" height="120" loading="lazy" src="13.jpg" width="120"/>
+      <h3 class="text-lg font-bold text-gray-300 mb-2 sm:text-sm">
+       Coding Diagnosa
+      </h3>
+      <p class="text-gray-400 text-xs font-semibold sm:text-[10px]">
+       Sistem diagnosa &amp; analisa.
+      </p>
+     </article>
+    </div>
+   </section>
+   <!-- About Section -->
+   <section class="mb-20 px-4 bg-gradient-to-br from-black via-gray-700 to-black rounded-3xl shadow-lg text-center md:max-w-3xl md:mx-auto sm:text-xs" id="about">
+    <h2 class="text-3xl font-extrabold mb-4 text-gray-300 tracking-wide sm:text-base">
+     Kenapa Pilih Kami?
+    </h2>
+    <p class="text-gray-400 text-sm leading-relaxed max-w-md mx-auto md:text-base sm:text-[11px] sm:leading-snug">
+     Tim joki yang santuy tapi profesional, siap bantu kamu dari makalah
+     sampai coding. Harga bersahabat, hasil memuaskan, dan pastinya anti
+     ribet!
+    </p>
+   </section>
+   <!-- Contact Section -->
+   <footer class="bg-black text-white">
+    <div class="max-w-7xl mx-auto px-6 py-10 sm:py-12 lg:py-16">
+     <div class="flex flex-col md:flex-row md:justify-between md:items-start space-y-10 md:space-y-0 md:space-x-20">
+      <div class="md:w-1/4">
+       <img alt="Company logo in white on black background, rectangular shape with text 'Logo White'" class="mb-6" height="50" src="14.jpg" width="150"/>
+       <p class="text-gray-300 text-sm leading-relaxed">
+        We are committed to delivering the best products and services with a focus on quality and customer satisfaction.
+       </p>
+       <div class="flex space-x-4 mt-6">
+        <a aria-label="Facebook" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-facebook-f text-lg">
+         </i>
+        </a>
+        <a aria-label="Twitter" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-twitter text-lg">
+         </i>
+        </a>
+        <a aria-label="Instagram" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-instagram text-lg">
+         </i>
+        </a>
+        <a aria-label="LinkedIn" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-linkedin-in text-lg">
+         </i>
+        </a>
+       </div>
+      </div>
+      <div class="grid grid-cols-2 gap-8 md:w-3/4 sm:grid-cols-3">
+       <div>
+        <h3 class="text-white font-semibold mb-4 text-lg">
+         Company
+        </h3>
+        <ul class="space-y-3 text-gray-300 text-sm">
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Careers
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Press
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Blog
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h3 class="text-white font-semibold mb-4 text-lg">
+         Support
+        </h3>
+        <ul class="space-y-3 text-gray-300 text-sm">
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Help Center
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Safety Center
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Community Guidelines
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Contact Us
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h3 class="text-white font-semibold mb-4 text-lg">
+         Legal
+        </h3>
+        <ul class="space-y-3 text-gray-300 text-sm">
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Cookies Policy
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Privacy Policy
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Terms of Service
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Law Enforcement
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-xs sm:text-sm">
+      © 2024 Your Company. All rights reserved.
+     </div>
+    </div>
+   </footer>
+  <script>
+   const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+ </body>
+</html>

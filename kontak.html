@@ -1,0 +1,218 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Kontak Kami - Portofolio Admin
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-black text-white min-h-screen flex flex-col">
+  <header class="sticky top-0 z-50 bg-black bg-opacity-95 backdrop-blur-md border-b border-gray-700">
+   <nav class="container mx-auto flex items-center justify-between py-5 px-6 md:px-0">
+    <a
+     aria-label="Beranda Jasa Joki"
+     class="text-2xl font-extrabold tracking-widest text-white hover:text-pink-500 transition flex items-center gap-2"
+     href="#"
+    >
+     <i class="fas fa-bolt fa-lg animate-pulse text-pink-500 text-200"></i>JOKI TERBALIK
+    </a>
+    <ul
+     class="hidden md:flex space-x-10 font-bold text-pink-400 uppercase tracking-widest text-sm"
+     id="nav-links"
+    >
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="index.html">Layanan</a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="tentang.html">Tentang</a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="kontak.html">Kontak</a>
+     </li>
+    </ul>
+    <button
+     aria-label="Toggle menu"
+     class="md:hidden text-pink-400 hover:text-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500"
+     id="menu-btn"
+    >
+     <i class="fas fa-bars fa-lg"></i>
+    </button>
+   </nav>
+   <div class="hidden bg-black bg-opacity-95 border-t border-pink-600 md:hidden" id="mobile-menu">
+    <ul class="flex flex-col space-y-5 p-6 uppercase font-extrabold tracking-widest text-pink-400 text-lg">
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="index.html">Layanan</a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="tentang.html">Tentang</a>
+     </li>
+     <li>
+      <a class="hover:text-pink-600 transition duration-300" href="kontak.html">Kontak</a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <main class="flex-grow max-w-3xl w-full border border-white p-8 rounded-md shadow-lg mx-auto my-10">
+   <h1 class="text-4xl font-semibold mb-10 text-center">
+    Portofolio Admin
+   </h1>
+   <section class="grid grid-cols-1 sm:grid-cols-2 gap-10">
+    <div class="border border-white rounded-md overflow-hidden shadow-sm hover:shadow-lg transition bg-black">
+     <img alt="Potret admin pertama, pria berambut pendek dengan latar belakang putih dan hitam, mengenakan kemeja putih" class="w-full h-72 object-cover" height="300" src="kelvin.jpg" width="400"/>
+     <div class="p-6">
+      <h2 class="font-semibold text-2xl mb-2 text-white">
+       KELVIN THALIB
+      </h2>
+      <p class="text-gray-300 text-base">
+       Spesialis desain grafis dan pengembangan web dengan pengalaman 5 tahun dalam proyek kreatif hitam putih.
+      </p>
+     </div>
+    </div>
+    <div class="border border-white rounded-md overflow-hidden shadow-sm hover:shadow-lg transition bg-black">
+     <img alt="Potret admin kedua, wanita berambut panjang dengan latar belakang hitam dan putih, mengenakan blus hitam" class="w-full h-72 object-cover" height="300" src="alfin.jpg" width="400"/>
+     <div class="p-6">
+      <h2 class="font-semibold text-2xl mb-2 text-white">
+       ALFIN YAHYA ALIM
+      </h2>
+      <p class="text-gray-300 text-base">
+       Ahli manajemen proyek dan konten digital dengan fokus pada estetika monokrom dan branding minimalis.
+      </p>
+     </div>
+    </div>
+   </section>
+   <!-- Contact Section -->
+   <footer class="bg-black text-white">
+    <div class="max-w-7xl mx-auto px-6 py-10 sm:py-12 lg:py-16">
+     <div class="flex flex-col md:flex-row md:justify-between md:items-start space-y-10 md:space-y-0 md:space-x-20">
+      <div class="md:w-1/4">
+       <img alt="Company logo in white on black background, rectangular shape with text 'Logo White'" class="mb-6" height="50" src="14.jpg" width="150"/>
+       <p class="text-gray-300 text-sm leading-relaxed">
+        We are committed to delivering the best products and services with a focus on quality and customer satisfaction.
+       </p>
+       <div class="flex space-x-4 mt-6">
+        <a aria-label="Facebook" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-facebook-f text-lg">
+         </i>
+        </a>
+        <a aria-label="Twitter" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-twitter text-lg">
+         </i>
+        </a>
+        <a aria-label="Instagram" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-instagram text-lg">
+         </i>
+        </a>
+        <a aria-label="LinkedIn" class="hover:text-gray-400 transition-colors" href="#">
+         <i class="fab fa-linkedin-in text-lg">
+         </i>
+        </a>
+       </div>
+      </div>
+      <div class="grid grid-cols-2 gap-8 md:w-3/4 sm:grid-cols-3">
+       <div>
+        <h3 class="text-white font-semibold mb-4 text-lg">
+         Company
+        </h3>
+        <ul class="space-y-3 text-gray-300 text-sm">
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Careers
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Press
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Blog
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h3 class="text-white font-semibold mb-4 text-lg">
+         Support
+        </h3>
+        <ul class="space-y-3 text-gray-300 text-sm">
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Help Center
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Safety Center
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Community Guidelines
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Contact Us
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h3 class="text-white font-semibold mb-4 text-lg">
+         Legal
+        </h3>
+        <ul class="space-y-3 text-gray-300 text-sm">
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Cookies Policy
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Privacy Policy
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Terms of Service
+          </a>
+         </li>
+         <li>
+          <a class="hover:text-white transition-colors" href="#">
+           Law Enforcement
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-xs sm:text-sm">
+      © 2024 Your Company. All rights reserved.
+     </div>
+    </div>
+   </footer>
+  </main>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+   const mobileMenu = document.getElementById('mobile-menu');
+   menuBtn.addEventListener('click', () => {
+     mobileMenu.classList.toggle('hidden');
+   });
+  </script>
+ </body>
+</html>
